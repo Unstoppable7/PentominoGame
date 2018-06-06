@@ -7,6 +7,7 @@ public class GameStatus : MonoBehaviour {
 	public static GameStatus gameStatus;
 	public int highScore;
 
+
 	void Awake()
 	{
 		if(gameStatus == null)
