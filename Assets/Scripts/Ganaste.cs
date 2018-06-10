@@ -16,5 +16,9 @@ public class Ganaste : MonoBehaviour {
         {
             ganaste.SetActive(true);
         }
+        else
+        {
+            ganaste.SetActive(false);
+        }
 	}
 }

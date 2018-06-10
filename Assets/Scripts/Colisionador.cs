@@ -15,7 +15,7 @@ public class Colisionador : MonoBehaviour
         {
             trigger = true;
             objColisionado = colisionador.transform;
-            print(transform.name + "  " + colisionador.transform.name);
+            //print(transform.name + "  " + colisionador.transform.name);
         }        
     }
     void OnTriggerExit2D(Collider2D colisionador)
