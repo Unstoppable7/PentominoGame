@@ -908,17 +908,27 @@ Prefab:
     - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -629
+      value: -576
       objectReference: {fileID: 0}
     - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 339
+      value: 355
+      objectReference: {fileID: 0}
+    - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c01d76dfaca7373478df6c96ee778f9a, type: 2}
@@ -1062,7 +1072,7 @@ Prefab:
     - target: {fileID: 224534942085683308, guid: 2b95fe1fafea22b47b35e30b8d997110,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 1420
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 224534942085683308, guid: 2b95fe1fafea22b47b35e30b8d997110,
         type: 2}
@@ -1429,7 +1439,7 @@ GameObject:
   - component: {fileID: 1769189617}
   - component: {fileID: 1769189616}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

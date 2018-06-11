@@ -265,7 +265,7 @@ Prefab:
     - target: {fileID: 224534942085683308, guid: 2b95fe1fafea22b47b35e30b8d997110,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 1420
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 224534942085683308, guid: 2b95fe1fafea22b47b35e30b8d997110,
         type: 2}
@@ -650,12 +650,12 @@ Prefab:
     - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 351
+      value: 362
       objectReference: {fileID: 0}
     - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -633
+      value: -580
       objectReference: {fileID: 0}
     - target: {fileID: 114651912642424918, guid: c01d76dfaca7373478df6c96ee778f9a,
         type: 2}
@@ -666,6 +666,16 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: menuPrincipal
+      objectReference: {fileID: 0}
+    - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c01d76dfaca7373478df6c96ee778f9a, type: 2}
