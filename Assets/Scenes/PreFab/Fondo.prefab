@@ -9,19 +9,32 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
+<<<<<<< HEAD
   m_RootGameObject: {fileID: 1435069905472098}
   m_IsPrefabParent: 1
 --- !u!1 &1435069905472098
+=======
+  m_RootGameObject: {fileID: 1451318212818784}
+  m_IsPrefabParent: 1
+--- !u!1 &1451318212818784
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 224464569156871574}
   - component: {fileID: 222491723991407996}
   - component: {fileID: 114245358713576162}
   - component: {fileID: 114933918197627484}
+=======
+  - component: {fileID: 224534942085683308}
+  - component: {fileID: 222782508398956928}
+  - component: {fileID: 114234662320943650}
+  - component: {fileID: 114663179520470926}
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
   m_Layer: 5
   m_Name: Fondo
   m_TagString: Untagged
@@ -29,12 +42,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &114245358713576162
+=======
+--- !u!114 &114234662320943650
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1435069905472098}
+=======
+  m_GameObject: {fileID: 1451318212818784}
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -55,12 +76,20 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD
 --- !u!114 &114933918197627484
+=======
+--- !u!114 &114663179520470926
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1435069905472098}
+=======
+  m_GameObject: {fileID: 1451318212818784}
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e92e301e4216e3246a5a1e8013456963, type: 3}
@@ -128,18 +157,31 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 26d58d94462de6440ba53f81149a45c2, type: 3}
   - {fileID: 2800000, guid: d56fd99f827bbe54588e8170a56b7722, type: 3}
   fps: 20
+<<<<<<< HEAD
 --- !u!222 &222491723991407996
+=======
+--- !u!222 &222782508398956928
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1435069905472098}
 --- !u!224 &224464569156871574
+=======
+  m_GameObject: {fileID: 1451318212818784}
+--- !u!224 &224534942085683308
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1435069905472098}
+=======
+  m_GameObject: {fileID: 1451318212818784}
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -150,5 +192,9 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD
   m_SizeDelta: {x: 100, y: 100}
+=======
+  m_SizeDelta: {x: 1280, y: 800}
+>>>>>>> f2d79f0bb971c22935fa602cf2398809065dd232
   m_Pivot: {x: 0.5, y: 0.5}
