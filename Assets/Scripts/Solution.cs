@@ -14,7 +14,7 @@ public class Solution : MonoBehaviour {
 
 	public void SolutionBtn()
 	{
-		Time.timeScale = 0f;
+		Time.timeScale = 1f;
 		pausePanel.SetActive (true);
 	}
 
