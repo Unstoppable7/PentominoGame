@@ -73,11 +73,11 @@
      <Compile Include="Assets\Scripts\Solution.cs" />
      <Compile Include="Assets\Scripts\Sonidos.cs" />
      <Compile Include="Assets\Scripts\SoundHandler.cs" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/unstoppable/Documents/Git/GitLab/Unity/Pentomino/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/unstoppable/Documents/Git/GitLab/Unity/Pentomino/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/unstoppable/Documents/Git/GitLab/Unity/Pentomino/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
