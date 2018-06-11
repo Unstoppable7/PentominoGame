@@ -15940,12 +15940,22 @@ Prefab:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114651912642424918, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 28328993}
+    - target: {fileID: 114651912642424918, guid: c01d76dfaca7373478df6c96ee778f9a,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: chooseMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c01d76dfaca7373478df6c96ee778f9a, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &740789653 stripped
 RectTransform:
-  m_PrefabParentObject: {fileID: 224078370735260922, guid: c01d76dfaca7373478df6c96ee778f9a,
+  m_PrefabParentObject: {fileID: 224122304945957472, guid: c01d76dfaca7373478df6c96ee778f9a,
     type: 2}
   m_PrefabInternal: {fileID: 740789652}
 --- !u!1 &741594350
