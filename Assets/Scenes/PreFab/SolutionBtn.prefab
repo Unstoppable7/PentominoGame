@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 222248529178447214}
   - component: {fileID: 114368239042118714}
   - component: {fileID: 114454678136282866}
+  - component: {fileID: 114705369321268800}
   m_Layer: 5
   m_Name: SolutionBtn
   m_TagString: Untagged
@@ -158,6 +159,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Solution
+--- !u!114 &114705369321268800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135101299944494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d703c4108278f47b674a32c9c09096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 0}
 --- !u!222 &222160244992022742
 CanvasRenderer:
   m_ObjectHideFlags: 1
