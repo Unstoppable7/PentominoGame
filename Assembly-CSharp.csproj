@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\DragHandler.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
      <Compile Include="Assets\Scripts\Ganaste.cs" />
+     <Compile Include="Assets\Scripts\GifAnimated.cs" />
      <Compile Include="Assets\Scripts\ScoreScripts\GameStatus.cs" />
      <Compile Include="Assets\Scripts\ScoreScripts\GameStatus2.cs" />
      <Compile Include="Assets\Scripts\ScoreScripts\GameStatus3.cs" />
