@@ -7867,8 +7867,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 559784494}
-<<<<<<< HEAD
-=======
 --- !u!1 &564600438 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1312768401812640, guid: 325a8368b50f47642b6a3587df0d710d,
@@ -7979,7 +7977,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 325a8368b50f47642b6a3587df0d710d, type: 2}
   m_IsPrefabParent: 0
->>>>>>> ad6379e1732508832ba3ed1e833b60d0989704cc
 --- !u!1 &569540432
 GameObject:
   m_ObjectHideFlags: 0
@@ -33588,12 +33585,9 @@ RectTransform:
   - {fileID: 1139548830}
   - {fileID: 526537867}
   - {fileID: 405209646}
-<<<<<<< HEAD
   - {fileID: 2041170165}
-=======
   - {fileID: 564600441}
   - {fileID: 1161805899}
->>>>>>> ad6379e1732508832ba3ed1e833b60d0989704cc
   m_Father: {fileID: 663988781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
