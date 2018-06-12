@@ -25,6 +25,7 @@ public class TimeHandler2 : MonoBehaviour {
 
 		if(DragHandler.ganar)
 		{
+			score = (int)time;
 			if (PlayerPrefs.GetInt ("HighScore2", 0) == 0) {
 				PlayerPrefs.SetInt ("HighScore2", (int)time);
 				highScore.text = time.ToString ("f0");
@@ -32,16 +33,28 @@ public class TimeHandler2 : MonoBehaviour {
 				score = (int)time;
 				timer = GameObject.Find ("GameStatus5x12").GetComponent<GameStatus2> ();
 				timer.highScore = score;
+				Score2 = GameObject.Find ("DigitScore").GetComponent<Text> ();
+				Score2.text = "" + score.ToString("f0");
 
-			} else if (time > PlayerPrefs.GetInt ("HighScore2", 0)) {
+			} else if (time < PlayerPrefs.GetInt ("HighScore2", 0)) {
 				PlayerPrefs.SetInt ("HighScore2", (int)time);
 				highScore.text = time.ToString ("f0");
 
 				score = (int)time;
 				timer = GameObject.Find ("GameStatus5x12").GetComponent<GameStatus2> ();
 				timer.highScore = score;
+				Score2 = GameObject.Find ("DigitScore").GetComponent<Text> ();
+				Score2.text = "" + score.ToString("f0");
+
+			}else if(time > PlayerPrefs.GetInt ("HighScore2", 0))
+			{
+				score = (int)time;
+				Score2 = GameObject.Find ("DigitScore").GetComponent<Text> ();
+				Score2.text = "" + score.ToString("f0");
 			}
-			Score2.text = "" + score;
+
+
+				
 
 		}
 
