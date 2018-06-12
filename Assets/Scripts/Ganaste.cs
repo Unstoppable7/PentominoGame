@@ -14,10 +14,12 @@ public class Ganaste : MonoBehaviour {
 	void Update () {
         if (DragHandler.ganar)
         {
+			//Time.timeScale = 1f;
             ganaste.SetActive(true);
         }
         else
         {
+			//Time.timeScale = 1f;
             ganaste.SetActive(false);
         }
 	}
