@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IDropHandler,IPointerDownHandler
 {
@@ -297,7 +298,7 @@ public class DragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IDropHa
         }
         else
         {
-            transform.position = nietos[2].transform.position;
+            //transform.position = nietos[2].transform.position;
             seleccionado = null;
         }
         //print("Aqui  "+Colisionador.trigger);
@@ -306,6 +307,5 @@ public class DragHandler : MonoBehaviour,IBeginDragHandler, IDragHandler,IDropHa
     public void OnPointerDown(PointerEventData eventData)
     {
         seleccionado = transform;
-        
     }
 }
