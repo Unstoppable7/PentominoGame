@@ -54,7 +54,7 @@ public class Botones : MonoBehaviour {
 
     public void menuPrincipal()
     {
-        SceneManager.LoadScene("MenuPrincipal");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void girarDer()
