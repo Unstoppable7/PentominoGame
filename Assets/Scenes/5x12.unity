@@ -5162,8 +5162,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: 0}
-  m_SizeDelta: {x: 1302, y: 284}
+  m_AnchoredPosition: {x: 58, y: -15}
+  m_SizeDelta: {x: 1197, y: 253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256728477
 MonoBehaviour:
@@ -20368,7 +20368,7 @@ Prefab:
     - target: {fileID: 224237223476374938, guid: 4370e9db3b2b27a42b940e938a50fb64,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 88.999985
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 114847165838735144, guid: 4370e9db3b2b27a42b940e938a50fb64,
         type: 2}
@@ -46364,23 +46364,38 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 114166840901026222, guid: fa105feace6e3254291f4e26da0ce5dd,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2074366531}
+    - target: {fileID: 114166840901026222, guid: fa105feace6e3254291f4e26da0ce5dd,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: menuPrincipal
+      objectReference: {fileID: 0}
+    - target: {fileID: 114820105550857352, guid: fa105feace6e3254291f4e26da0ce5dd,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0.64705884
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa105feace6e3254291f4e26da0ce5dd, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &2009543653 stripped
 RectTransform:
-  m_PrefabParentObject: {fileID: 224762703462924954, guid: fa105feace6e3254291f4e26da0ce5dd,
+  m_PrefabParentObject: {fileID: 224937021228761106, guid: fa105feace6e3254291f4e26da0ce5dd,
     type: 2}
   m_PrefabInternal: {fileID: 2009543652}
 --- !u!114 &2009543654 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114946340660728862, guid: fa105feace6e3254291f4e26da0ce5dd,
+  m_PrefabParentObject: {fileID: 114736458512206138, guid: fa105feace6e3254291f4e26da0ce5dd,
     type: 2}
   m_PrefabInternal: {fileID: 2009543652}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &2009543655 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1867597045304206, guid: fa105feace6e3254291f4e26da0ce5dd,
+  m_PrefabParentObject: {fileID: 1073548095108628, guid: fa105feace6e3254291f4e26da0ce5dd,
     type: 2}
   m_PrefabInternal: {fileID: 2009543652}
 --- !u!1 &2015567052
@@ -47633,13 +47648,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2074366530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7a03de5b156b4d428818f5d6e474cf9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f268eb9363f25946875e88f10cae566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   crono: {fileID: 1283318556}
   highScore: {fileID: 1669829729}
-  Score2: {fileID: 2009543654}
+  Score3: {fileID: 2009543654}
   score: 0
+  temp: 0
 --- !u!114 &2074366537
 MonoBehaviour:
   m_ObjectHideFlags: 0

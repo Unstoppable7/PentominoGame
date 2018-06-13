@@ -9,7 +9,7 @@ public class TimeHandler4 : MonoBehaviour {
 	public Text highScore;
 	public Text Score;
 	private float time = 0.0f;
-	public int score = 0;
+	public int score = 0,temp=0;
 	private GameStatus4 timer;
 
 	// Use this for initialization
@@ -20,11 +20,8 @@ public class TimeHandler4 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		time += Time.deltaTime;
-		crono.text = "" + time.ToString ("f0");
 
-		if(DragHandler.ganar)
-		{
+		if (DragHandler.ganar) {
 			if (PlayerPrefs.GetInt ("HighScore4", 0) == 0) {
 				PlayerPrefs.SetInt ("HighScore4", (int)time);
 				highScore.text = time.ToString ("f0");
@@ -32,6 +29,7 @@ public class TimeHandler4 : MonoBehaviour {
 				score = (int)time;
 				timer = GameObject.Find ("GameStatus3x20").GetComponent<GameStatus4> ();
 				timer.highScore = score;
+				temp = timer.highScore;
 
 			} else if (time < PlayerPrefs.GetInt ("HighScore4", 0)) {
 				PlayerPrefs.SetInt ("HighScore4", (int)time);
@@ -40,13 +38,23 @@ public class TimeHandler4 : MonoBehaviour {
 				score = (int)time;
 				timer = GameObject.Find ("GameStatus3x20").GetComponent<GameStatus4> ();
 				timer.highScore = score;
+				temp = timer.highScore;
 
+			} else if (time > PlayerPrefs.GetInt ("HighScore4", 0)) {
+				
+				temp = (int)time;
 			}
-			Score.text = "" + score;
+
+			Score.text = "" + temp;
+
+		} else 
+		{
+			time += Time.deltaTime;
+			crono.text = "" + time.ToString ("f0");
 		}
 	}
 
-	public void SaveScore()
+	/*public void SaveScore()
 	{
 
 		if (PlayerPrefs.GetInt ("HighScore4", 0) == 0) {
@@ -66,5 +74,5 @@ public class TimeHandler4 : MonoBehaviour {
 			timer.highScore = score;
 		}
 
-	}
+	}*/
 }
