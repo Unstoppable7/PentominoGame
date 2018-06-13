@@ -20,6 +20,6 @@ public class ScoreHandler4 : MonoBehaviour {
 		highscore = NewScore.highScore;
 		score = GameObject.Find ("HighScore4").GetComponent<Text> ();
 		PlayerPrefs.SetInt ("HighScore4",highscore);
-		score.text = "" + highscore.ToString ("f0");
+		score.text = "" + highscore.ToString ("f0")+ "s";
 	}
 }
