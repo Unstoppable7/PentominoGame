@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreScripts\TimeHandler4.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreScripts\ScoreHandler2.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScoreScripts\TimeHandler.cs" Line="35" Column="21" />
-      <File FileName="Assets\Scripts\ScoreScripts\TimeHandler2.cs" Line="31" Column="21" />
-      <File FileName="Assets\Scripts\ScoreScripts\TimeHandler3.cs" Line="79" Column="5" />
-      <File FileName="Assets\Scripts\ScoreScripts\TimeHandler4.cs" Line="36" Column="12" />
+      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler.cs" Line="23" Column="52" />
+      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler2.cs" Line="23" Column="17" />
+      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler3.cs" Line="23" Column="53" />
+      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler4.cs" Line="23" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
