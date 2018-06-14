@@ -35,7 +35,7 @@ public class Botones : MonoBehaviour {
     {
         if (sound.isPlaying)
         {
-            sound.Stop();
+			sound.Pause();
         }
         else
         {
@@ -87,4 +87,9 @@ public class Botones : MonoBehaviour {
             DragHandler.seleccionado.Rotate(180, 0, 0,Space.World);
         }
     }
+
+	public void Quit()
+	{
+		Application.Quit ();
+	}
 }

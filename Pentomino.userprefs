@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreScripts\ScoreHandler2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Botones.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler.cs" Line="23" Column="52" />
-      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler2.cs" Line="23" Column="17" />
-      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler3.cs" Line="23" Column="53" />
-      <File FileName="Assets\Scripts\ScoreScripts\ScoreHandler4.cs" Line="23" Column="51" />
+      <File FileName="Assets\Scripts\Botones.cs" Line="38" Column="17" />
+      <File FileName="Assets\Scripts\SoundHandler.cs" Line="24" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
