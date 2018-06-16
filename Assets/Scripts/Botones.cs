@@ -91,5 +91,6 @@ public class Botones : MonoBehaviour {
 	public void Quit()
 	{
 		Application.Quit ();
+
 	}
 }
